@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="C:\Users\Thibaut\AndroidStudioProjects\Musee\app\src\main\assets"><file name="Brads_Tattoo.ttf" path="C:\Users\Thibaut\AndroidStudioProjects\Musee\app\src\main\assets\Brads_Tattoo.ttf"/><file name="Segoe_Print.ttf" path="C:\Users\Thibaut\AndroidStudioProjects\Musee\app\src\main\assets\Segoe_Print.ttf"/></source></dataSet><dataSet config="debug"><source path="C:\Users\Thibaut\AndroidStudioProjects\Musee\app\src\debug\assets"/></dataSet></merger>

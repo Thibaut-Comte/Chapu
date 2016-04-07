@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="org.musee.chapu.MainActivity" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+
+    <item
+        android:id="@id/accueil"
+        android:showAsAction="ifRoom|withText"
+        android:icon="@drawable/ic_stat_action_home"
+        android:title="Accueil"/>
+
+    <item
+        android:id="@id/profil"
+        android:showAsAction="ifRoom|withText"
+        android:icon="@drawable/ic_stat_action_account_circle"
+        android:title="Profil"/>
+
+
+    <item
+        android:id="@+id/plan"
+        android:showAsAction="ifRoom|withText"
+        android:icon="@drawable/ic_action_maps_map"
+        android:title="Plan du musée"/>
+
+</menu>

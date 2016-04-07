@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">Musée Chapu</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Paramètres</string>
+    <string name="titre1">La Clytie</string>
+    <string name="titre2">Pluton</string>
+    <string name="titre3">Proserpine</string>
+    <string name="titre4">Titre4</string>
+    <string name="titre5">Titre5</string>
+    <string name="titre6">Titre6</string>
+    <string name="titre7">Titre7</string>
+    <string name="titre8">Titre8</string>
+    <string name="titre9">Titre9</string>
+    <string name="help">Ne vous inquiétez pas ! Chapu est un homme de sens. Cherchez en 4.</string>
+    <string name="help2">Essayez de toucher les mains par exemple. Il vous en reste 3 !</string>
+    <string name="regle1">Le portrait de Chapu cache des liens secrets en rapport avec sa vie.</string>
+    <string name="regle2">À vous de les trouver.</string>
+    <string name="regle3">Gardez tous vos sens en alerte !</string>
+    <string name="mytho">Les Héros et la Mythologie</string>
+    <string name="portrait">Les Portraits</string>
+    <string name="grandsHommes">Les Grands Hommes</string>
+    <string name="jeunesse">Sa Jeunesse</string>
+    <string name="beaux_arts">Les Beaux Arts</string>
+    <string name="commandes">Les Grandes Commandes Princières</string>
+    <string name="welcome_decouv">Bienvenue et bonne découverte du musée !</string>
+    <string name="welcome_expert">Bienvenue dans la version experte !</string>
+    <string name="title_activity_biographie">Biographie</string>
+    <string name="title_activity_plan">Plan du musée</string>
+    <string name="title_activity_profil">Profil</string>
+    <string name="title_activity_yeux">Détails</string>
+    <string name="title_activity_regles_bio">Règle du jeu</string>
+    <string name="title_activity_bio_jeu">Jeu Biographie</string>
+    <string name="title_activity_image_oeuvre">Liste des oeuvres</string>
+    <string name="title_activity_id">Chargement</string>
+    <string name="title_activity_help">Aide</string>
+    <string name="title_activity_page_oeuvre">Page de l\'oeuvre</string>
+    <string name="title_activity_accueil">Accueil</string>
+    <string name="title_activity_liste_theme">Liste des thèmes</string>
+    <string name="title_activity_liste_theme_expert">Liste des thèmes</string>
+</resources>

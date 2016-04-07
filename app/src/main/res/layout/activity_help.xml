@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="org.musee.chapu.biographie.Help"
+    android:background="@drawable/papier">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/help_texte"
+        android:textSize="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="92dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="88dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/help_texte2"
+        android:textSize="40dp"
+        android:layout_below="@+id/help_texte"
+        android:layout_alignLeft="@+id/help_texte"
+        android:layout_alignStart="@+id/help_texte" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Retour au jeu"
+        android:id="@+id/retour"
+        android:layout_marginRight="58dp"
+        android:layout_marginEnd="58dp"
+        android:layout_marginBottom="49dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        style="@style/button_text"
+        android:background="@drawable/purple_button"
+        android:paddingRight="100dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView6"
+        android:src="@drawable/chapu_droite_retour"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/retour"
+        android:layout_alignEnd="@+id/retour"
+        android:layout_marginBottom="27dp" />
+</RelativeLayout>

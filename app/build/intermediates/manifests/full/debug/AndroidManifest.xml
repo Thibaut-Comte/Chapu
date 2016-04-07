@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.musee"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="19" />
+
+    <android:uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <android:uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="org.musee.chapu.MainActivity"
+            android:label="@string/app_name"
+            android:parentActivityName="org.musee.chapu.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="org.musee.chapu.themes.ListeThemes" >
+        </activity>
+        <activity
+            android:name="org.musee.chapu.themes.PageOeuvre"
+            android:label="@string/title_activity_page_oeuvre" >
+        </activity>
+        <activity
+            android:name="org.musee.chapu.Accueil"
+            android:label="@string/title_activity_accueil" >
+        </activity>
+        <activity android:name="org.musee.chapu.themes.ListeThemesExpert" />
+        <activity
+            android:name="org.musee.chapu.biographie.Biographie"
+            android:label="@string/title_activity_biographie" >
+        </activity>
+        <activity android:name="org.musee.chapu.biographie.BiographieJeu" >
+        </activity>
+        <activity
+            android:name="org.musee.chapu.Plan"
+            android:label="@string/title_activity_plan" >
+        </activity>
+        <activity
+            android:name="org.musee.chapu.biographie.ReglesBio"
+            android:label="@string/title_activity_regles_bio" >
+        </activity>
+        <activity
+            android:name="org.musee.chapu.biographie.Details"
+            android:label="@string/title_activity_yeux" >
+        </activity>
+        <activity
+            android:name="org.musee.chapu.themes.ImageOeuvre"
+            android:label="@string/title_activity_image_oeuvre" >
+        </activity>
+        <activity
+            android:name="org.musee.chapu.SplashScreen"
+            android:label="@string/title_activity_id" >
+        </activity>
+        <activity
+            android:name="org.musee.chapu.biographie.Help"
+            android:label="@string/title_activity_help" >
+        </activity>
+    </application>
+
+</manifest>

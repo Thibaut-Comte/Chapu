@@ -1,0 +1,164 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* ic_launcher-web.png
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:19.1.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+* image_100.JPG => image_100.jpg
+* image_102.JPG => image_102.jpg
+* image_104.JPG => image_104.jpg
+* image_105.JPG => image_105.jpg
+* image_107.JPG => image_107.jpg
+* image_109.JPG => image_109.jpg
+* image_111.JPG => image_111.jpg
+* image_113.JPG => image_113.jpg
+* image_115.JPG => image_115.jpg
+* image_119.JPG => image_119.jpg
+* image_12.JPG => image_12.jpg
+* image_121.JPG => image_121.jpg
+* image_123.JPG => image_123.jpg
+* image_125.JPG => image_125.jpg
+* image_127.JPG => image_127.jpg
+* image_128.JPG => image_128.jpg
+* image_129.JPG => image_129.jpg
+* image_13.JPG => image_13.jpg
+* image_131.JPG => image_131.jpg
+* image_133.JPG => image_133.jpg
+* image_135.JPG => image_135.jpg
+* image_137.JPG => image_137.jpg
+* image_139.JPG => image_139.jpg
+* image_14.JPG => image_14.jpg
+* image_141.JPG => image_141.jpg
+* image_142.JPG => image_142.jpg
+* image_144.JPG => image_144.jpg
+* image_146.JPG => image_146.jpg
+* image_148.JPG => image_148.jpg
+* image_149.JPG => image_149.jpg
+* image_15.JPG => image_15.jpg
+* image_151.JPG => image_151.jpg
+* image_152.JPG => image_152.jpg
+* image_153.JPG => image_153.jpg
+* image_154.JPG => image_154.jpg
+* image_156.JPG => image_156.jpg
+* image_158.JPG => image_158.jpg
+* image_16.JPG => image_16.jpg
+* image_160.JPG => image_160.jpg
+* image_162.JPG => image_162.jpg
+* image_163.JPG => image_163.jpg
+* image_165.JPG => image_165.jpg
+* image_17.JPG => image_17.jpg
+* image_18.JPG => image_18.jpg
+* image_19.JPG => image_19.jpg
+* image_20.JPG => image_20.jpg
+* image_22.JPG => image_22.jpg
+* image_23.JPG => image_23.jpg
+* image_24.JPG => image_24.jpg
+* image_25.JPG => image_25.jpg
+* image_26.JPG => image_26.jpg
+* image_27.JPG => image_27.jpg
+* image_28.JPG => image_28.jpg
+* image_29.JPG => image_29.jpg
+* image_30.JPG => image_30.jpg
+* image_31.JPG => image_31.jpg
+* image_32.JPG => image_32.jpg
+* image_33.JPG => image_33.jpg
+* image_34.JPG => image_34.jpg
+* image_35.JPG => image_35.jpg
+* image_36.JPG => image_36.jpg
+* image_37.JPG => image_37.jpg
+* image_38.JPG => image_38.jpg
+* image_39.JPG => image_39.jpg
+* image_40.JPG => image_40.jpg
+* image_41.JPG => image_41.jpg
+* image_42.JPG => image_42.jpg
+* image_43.JPG => image_43.jpg
+* image_44.JPG => image_44.jpg
+* image_45.JPG => image_45.jpg
+* image_46.JPG => image_46.jpg
+* image_47.JPG => image_47.jpg
+* image_48.JPG => image_48.jpg
+* image_49.JPG => image_49.jpg
+* image_50.JPG => image_50.jpg
+* image_51.JPG => image_51.jpg
+* image_52.JPG => image_52.jpg
+* image_53.JPG => image_53.jpg
+* image_54.JPG => image_54.jpg
+* image_55.JPG => image_55.jpg
+* image_56.JPG => image_56.jpg
+* image_57.JPG => image_57.jpg
+* image_58.JPG => image_58.jpg
+* image_59.JPG => image_59.jpg
+* image_60.JPG => image_60.jpg
+* image_61.JPG => image_61.jpg
+* image_62.JPG => image_62.jpg
+* image_63.JPG => image_63.jpg
+* image_64.JPG => image_64.jpg
+* image_66.JPG => image_66.jpg
+* image_67.JPG => image_67.jpg
+* image_68.JPG => image_68.jpg
+* image_69.JPG => image_69.jpg
+* image_70.JPG => image_70.jpg
+* image_71.JPG => image_71.jpg
+* image_73.JPG => image_73.jpg
+* image_74.JPG => image_74.jpg
+* image_75.JPG => image_75.jpg
+* image_76.JPG => image_76.jpg
+* image_77.JPG => image_77.jpg
+* image_78.JPG => image_78.jpg
+* image_79.JPG => image_79.jpg
+* image_80.JPG => image_80.jpg
+* image_81.JPG => image_81.jpg
+* image_82.JPG => image_82.jpg
+* image_83.JPG => image_83.jpg
+* image_84.JPG => image_84.jpg
+* image_86.JPG => image_86.jpg
+* image_87.JPG => image_87.jpg
+* image_88.JPG => image_88.jpg
+* image_89.JPG => image_89.jpg
+* image_90.JPG => image_90.jpg
+* image_91.JPG => image_91.jpg
+* image_93.JPG => image_93.jpg
+* image_95.JPG => image_95.jpg
+* image_97.JPG => image_97.jpg
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
